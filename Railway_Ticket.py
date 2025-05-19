@@ -1,21 +1,4 @@
-""" 
-1.train PNR
-2.LOGIN
-3.SOURCE -DESTINATION
-4.SEATS AVAILABILTY
-5.DATE AND TIME
-6.PRICE
-7.USER DETAILS - NAME ,MOBILE , ADDRESS
-"""
 
-S="""
-1.User details
-2.Sorce and Destination
-3.Train Number and Seats Availability
-4.Price
-5.Book Tickets
-6. PNR Generate
-"""
 import random
 # AVAIABLE TRAIN LIST 
 class Railwaysticket:
@@ -106,10 +89,7 @@ class Railwaysticket:
             print("-------- THANK YOU 😊 --------")
             print("------- SAFE JOURNEY 🚆--------")
 
-
-              
-          
-              
+     #ticket details
             for passenger in self.Passengers:
                         print("\nYour Ticket Details:")
                         print(f"Train Number: {Matched_train[0]}")
@@ -132,7 +112,7 @@ class Railwaysticket:
             print(f"Invalid Input: {e}") 
                    
        
-
+# Account login details
 
 class Account():
     def __init__(self ,username ,password):
